@@ -1,0 +1,12 @@
+$dark: #646363;
+$light: #9a9da4;
+$highlight: #9ecc3b;
+$border: #E9E9E9;
+$white: #FFFFFF;
+
+@mixin transition ($transition) {
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+ 	-o-transition: $transition;
+ 	transition: $transition;
+}
