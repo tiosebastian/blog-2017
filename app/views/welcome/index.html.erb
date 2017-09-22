@@ -1,1 +1,29 @@
-<h1>hellow world!</h1>
+<div class="wrapper wrapper-padding clearfix">
+	<div class="col-1 about homepage-content">
+	<h2>About</h2>
+	<hr>
+	<p>Ramps leggings before they sold out fashion <a href="#">axe.</a></p>
+	<p>echo park kombucha unicorn whatever trust fund taxidermy meggings post-ironic hella ethical everyday carry.</p>
+	<p>echo park kombucha unicorn whatever trust fund taxidermy meggings post-ironic hella ethical everyday carry. <a href="#">YOLO</a> gastropub master cleanse, next level locavore fingerstache heirloom retro literally distillery wolf blog tote bag williamsburg.</p>
+
+	</div>
+	<div class="col-2 homepage-content">
+		<h2>Stuff I've Built</h2>
+		<hr>
+		<h3><a href="#">Sartorial</a></h3>
+		<p class="date">Apr 12, 2012</p>
+		<h3><a href="#">YOLO</a></h3>
+		<p class="date">Feb 15, 2013</p>
+		<h3><a href="#">Sartorial</a></h3>
+		<p class="date">Jan 1, 2014</p>
+	</div>
+	<div class="col-3 homepage-content">
+		<h2>Stuff I've Written</h2>
+		<hr>
+
+		<% @posts.each do |post| %>
+		<h3><a href="#"><%= link_to post.title, post %></a></h3>
+		<p class="date"><%= post.created_at.strftime("%b %d, %Y") %></p>
+		<% end %>
+	</div>
+</div>

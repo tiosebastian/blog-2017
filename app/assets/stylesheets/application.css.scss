@@ -15,7 +15,39 @@
  */
 
 @import 'normalize';
+@import 'variable';
 @import 'style';
 @import 'posts-projects';
 @import 'welcome';
+
+@media only screen and (max-width:768px) {
+	.col-1, .col-2, .col-3 {
+	float:none;
+	display: inline;
+	}
+	#main-nav {
+		display:none;
+		&.active {
+			display:block;
+			width:100%;
+			a {
+				display:block;
+				padding: 1em 0;
+				border-bottom: 1px solid #E9E9E9;
+				&:last-child {
+					border-bottom:none;
+				}
+			}
+		}
+	}
+	.menu {
+		display: block!important;
+		float: right;
+		i {
+			font-size: 1.5em;
+			color:$dark;
+			padding-top:.6em;
+		}
+	}
+}
 
