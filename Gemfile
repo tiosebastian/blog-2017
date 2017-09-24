@@ -27,6 +27,11 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+# Use pygments.rb to exposes the pygments syntax highlighter to Ruby. Read more: https://rubygems.org/gems/pygments.rb/versions/0.6.3
+gem 'rouge'
+# Use redcarpet for a fast, safe and extensible Markdown to (X)HTML parser. Read more: https://rubygems.org/gems/redcarpet/versions/3.3.4
+gem 'redcarpet'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password

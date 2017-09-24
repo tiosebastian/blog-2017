@@ -70,12 +70,12 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
-    mini_portile2 (2.2.0)
+    mini_portile2 (2.3.0)
     minitest (5.10.3)
     multi_json (1.12.2)
     nio4r (2.1.0)
-    nokogiri (1.8.0-x86-mingw32)
-      mini_portile2 (~> 2.2.0)
+    nokogiri (1.8.1-x86-mingw32)
+      mini_portile2 (~> 2.3.0)
     puma (3.10.0)
     rack (2.0.3)
     rack-test (0.6.3)
@@ -107,6 +107,8 @@ GEM
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
+    redcarpet (3.4.0)
+    rouge (3.0.0)
     sass (3.5.1)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -157,6 +159,8 @@ DEPENDENCIES
   jquery-rails
   puma (~> 3.0)
   rails (~> 5.0.4)
+  redcarpet
+  rouge
   sass-rails (~> 5.0)
   sqlite3
   turbolinks (~> 5)
@@ -165,4 +169,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.15.1
+   1.16.0.pre.2
