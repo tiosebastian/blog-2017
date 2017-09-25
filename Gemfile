@@ -31,6 +31,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'rouge'
 # Use redcarpet for a fast, safe and extensible Markdown to (X)HTML parser. Read more: https://rubygems.org/gems/redcarpet/versions/3.3.4
 gem 'redcarpet'
+# FriendlyId is the "Swiss Army bulldozer" of slugging and permalink plugins for Active Record. It lets you create pretty URLs and work with human-friendly strings as if they were numeric ids. Read more: https://rubygems.org/gems/friendly_id/versions/5.1.0
+gem 'friendly_id', '~> 5.1'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
