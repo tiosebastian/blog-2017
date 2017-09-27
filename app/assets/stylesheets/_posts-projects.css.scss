@@ -86,7 +86,7 @@
 .pagination {
 	text-align: center;
 	margin: 0 0 3em 0;
-	a, .previous-page, .current-page, .next-page {
+	a, .previous_page, .current, .next_page {
 		padding: .75em 1em;
 		margin:0 .5em;
 		border-radius: .15em;
@@ -97,8 +97,12 @@
 		font-size: .7em;
 		font-style: normal;
 		color:$dark;
+		&:hover {
+			background: $highlight;
+			color: $white;
+		}
 	}
-	.current-page {
+	.current {
 		background: $highlight;
 		color: $white;
 	}
@@ -106,6 +110,7 @@
 		color: #C0C0C0;
 		&:hover {
 			color: #C0C0C0;
+			background: $white;
 		}
 	}
 }
