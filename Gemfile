@@ -33,8 +33,10 @@ gem 'rouge'
 gem 'redcarpet'
 # FriendlyId is the "Swiss Army bulldozer" of slugging and permalink plugins for Active Record. It lets you create pretty URLs and work with human-friendly strings as if they were numeric ids. Read more: https://rubygems.org/gems/friendly_id/versions/5.1.0
 gem 'friendly_id', '~> 5.1'
-#  provides a simple API for performing paginated queries with Active Record, DataMapper and Sequel, and includes helpers for rendering pagination links in Rails, Sinatra and Merb web apps. Read more: https://rubygems.org/gems/will_paginate/versions/3.1.6
+# Provides a simple API for performing paginated queries with Active Record, DataMapper and Sequel, and includes helpers for rendering pagination links in Rails, Sinatra and Merb web apps. Read more: https://rubygems.org/gems/will_paginate/versions/3.1.6
 gem 'will_paginate'
+# Send e-mail straight from forms in Rails with I18n, validations, attachments and request information. Read more: https://rubygems.org/gems/mail_form/
+gem 'mail_form', '~> 1.5', '>= 1.5.1'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
