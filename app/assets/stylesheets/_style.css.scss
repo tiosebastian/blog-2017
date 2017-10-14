@@ -9,6 +9,11 @@ html, body {
 	font-family: 'Raleway', sans-serif;
 }
 
+.turbolinks-progress-bar {
+  height: 5px;
+  background-color: $highlight;
+}
+
 .wrapper {
 	width:90%;
 	margin: 0 auto;
