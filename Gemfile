@@ -37,6 +37,8 @@ gem 'friendly_id', '~> 5.1'
 gem 'will_paginate'
 # Send e-mail straight from forms in Rails with I18n, validations, attachments and request information. Read more: https://rubygems.org/gems/mail_form/
 gem 'mail_form', '~> 1.5', '>= 1.5.1'
+# Add social sharing functionality to your Rails app with one method call. Read more: https://rubygems.org/gems/shareable/versions/1.1.4
+gem 'shareable', '~> 1.1', '>= 1.1.4'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
